@@ -1,0 +1,653 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+*.dylib
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs and Editors
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.atom/
+.buildpath
+.project
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.Trash
+*.tmproj
+*.tmproject
+*.tmtags
+*.swp
+*.swo
+*~
+._*
+*.log
+*.tmp
+*.temp
+
+# Linux
+*~
+.directory
+*.pid
+*.seed
+*.pid.lock
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Data files
+data/*.db
+data/*.sqlite
+data/*.json
+data/*.csv
+data/*.xlsx
+*.dump
+
+# Log files
+logs/
+*.log
+log/
+*.log.*
+*.logfile
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.save
+
+# Secret / sensitive data
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.secrets
+secrets.json
+config.local.json
+.credentials
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+
+# API keys and tokens
+*.api.key
+*.token
+keys.json
+oauth.json
+secrets.yaml
+
+# Docker
+*.pid
+docker-compose.override.yml
+.dockerignore
+docker/redis-data/
+
+# Redis
+dump.rdb
+appendonly.aof
+redis.log
+
+# Cache
+.cache/
+*.cache
+*.cached
+*.crdownload
+*.download
+*.part
+*.torrent
+
+# Compiled files
+*.pyc
+*.pyo
+*.class
+*.exe
+*.out
+*.app
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+
+# Uploads / media
+uploads/
+media/
+static/uploads/
+static/media/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Configuration files with local changes
+config.local.py
+settings.local.py
+.local_settings.py
+
+# Flask session
+flask_session/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# RabbitMQ
+.erlang.cookie
+
+# Sentry
+.sentry/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.xmlcoverage
+
+# Profiling data
+*.prof
+*.lprof
+
+# Sphinx documentation
+docs/_build/
+
+# MkDocs documentation
+site/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Package manager files
+package-lock.json
+yarn.lock
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Cloud storage sync
+.dropbox
+.dropbox.attr
+.icloud
+.sync.ffs.db
+
+# Python tools
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.hypothesis/
+.benchmarks/
+
+# VSCode Python
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Pyre
+.pyre/
+
+# Cython
+cython_debug/
+
+# Profiling
+*.prof
+*.lprof
+*.pstats
+
+# Data files that might be generated
+*.parquet
+*.feather
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+*.pb
+*.tflite
+
+# Notebooks
+*.ipynb_checkpoints/
+*.ipynb
+.ipynb
+
+# Environment specific
+.env.dev
+.env.test
+.env.prod
+
+# Secrets management
+*.secret
+*.vault
+vault_*
+*.gpg
+*.asc
+
+# API documentation
+api-docs/
+apidocs/
+
+# Test artifacts
+test-results/
+test-screenshots/
+test-reports/
+
+# Performance
+perf/
+benchmarks/
+
+# Log rotation
+*.log.*
+*.log.gz
+*.log.bz2
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Package files
+*.deb
+*.rpm
+*.dmg
+*.msi
+
+# IDE workspace files
+*.code-workspace
+*.sublime-workspace
+
+# Local development overrides
+*.local
+*.override
+*-local.*
+*-override.*
+
+# Temporary git files
+*.orig
+*.rej
+*.patch
+*.diff
+
+# System files
+core
+*.core
+*.dmp
+
+# Build artifacts
+dist/
+build/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.eggs/
+*.egg
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.xmlcoverage
+.coverage.*.xml
+.coverage.*.html
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Profiling data
+.prof
+.profile
+*.prof
+*.lprof
+
+# Database migrations
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# Backup files
+*.backup
+*.back
+*.bak
+*.old
+*.orig
+
+# Temporary files from editing
+*~
+*.swp
+*.swo
+*.swn
+*.un~
+
+# Redis dump files
+dump.rdb
+appendonly.aof
+redis.log
+
+# Memcached
+*.memcached
+
+# Elasticsearch
+elasticsearch/
+data/
+
+# MongoDB
+mongodb-data/
+*.wt
+*.wt.*
+*.bson
+
+# PostgreSQL
+*.pgdata
+*.postgres
+postgres-data/
+
+# MySQL
+*.mysql
+*.mariadb
+*.ibd
+*.frm
+*.myd
+*.myi
+
+# Project specific
+url_shortener.db
+url_shortener.db-journal
+test.db
+test.db-journal
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.db-journal
+logs/*.log
+static/uploads/
+temp_uploads/
+
+# Secret key files
+secret.key
+private.key
+public.key
+*.pem
+*.crt
+*.key
+*.csr
+
+# OAuth credentials
+credentials.json
+client_secret.json
+oauth_token.json
+token.pickle
+
+# Environment variables with secrets
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+
+# API keys storage
+api_keys.json
+api_keys.yaml
+keys.json
+keys.yaml
+
+# Token files
+*.token
+*.jwt
+*.bearer
+
+# Docker secrets
+docker/secrets/
+docker/.secrets/
+
+# Kubernetes secrets
+k8s/secrets/
+*.secret.yaml
+*.secret.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+
+# Ansible
+*.retry
+ansible/vault_pass.txt
+
+# CI/CD
+.gitlab-ci.yml.local
+.jenkins/
+.teamcity/
+.github/workflows/*.local
+
+# Cloud provider secrets
+.aws/
+.aws_credentials
+.gcloud/
+.azure/
+.azure_credentials
+
+# Random files that shouldn't be committed
+*.DS_Store
+*.localized
+*.swp
+*.lock
+*.pid
+*.seed
